@@ -1,0 +1,222 @@
+<!DOCTYPE stylesheet>
+<style>
+
+@font-face{
+    font-family:breeSerif;
+    src: url(../fonts/BreeSerif-Regular.tff);
+}
+
+@font-face{
+    font-family:Chewy;
+    src: url(../fonts/Chewy-Regular.ttf);
+}
+
+@font-face{
+    font-family:Lobster;
+    src: url(../fonts/Lobster-Regular.ttf);
+}
+
+@font-face{
+    font-family:patuaOne;
+    src: url(../fonts/PatuaOne-Regular.ttf);
+}
+
+@font-face{
+    font-family:ropaSans;
+    src: url(../fonts/RopaSans-Regular.ttf);
+}
+
+@font-face{
+    font-family:robotoCondesed;
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face{
+    font-family:Rubik;
+    src: url(../fonts/Rubik-Regular.ttf);
+}
+
+*{
+    padding:0; margin: 0px;
+}
+
+body{
+    background-color:lightgoldenrodyellow;
+    letter-spacing: 0.06em;
+    font-family: robotoCondesed;
+}
+
+.header{
+    background-color: #FDE4B3;
+}
+
+.top{
+    font-family:Rubik;
+    font-size: 3em;
+}
+
+.top2{
+    margin-top: 5px;
+    font-family:breeSerif;
+    font-size: 2em;
+}
+
+ul{
+    display: inline-block;
+    padding: 0px; margin: 0px;
+    list-style: none;
+}
+
+ul li{
+    float:left;
+    width: 200px;
+    height: 40px;
+    background: rgba (0,0,0,.8);
+    line-height: 40px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+    color:black;
+}
+
+ul li a:hover{
+    color: orange;
+    display: block;
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
+
+.event{
+    display: block;
+    height: auto;
+}
+
+.pinfo{
+    margin-top: 10px;
+}
+
+.footer{
+    display: block;
+}
+
+.share{
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    display: block;
+    width: 230px;
+    height: 50px;
+}
+
+.quotes{
+    margin-top: 20px;
+    margin-left: 3%;
+    float: left;
+    font-family: Lobster;
+    font-size: 25px;
+    
+}
+
+.aboutUs{
+    margin-top: 20px;
+    float: left;
+    display: block;
+    width: 230px;
+    height: 50px;
+}
+
+.aboutUs a{
+    text-decoration: none;
+    color:black;
+}
+
+.images{
+    float: left;
+    margin-left: 14%;
+    text-align: center;
+}
+
+.images1{
+    float: left;
+    margin: 5px;
+    text-align: center;
+}
+
+.photo{
+    float: left;
+    display: block;
+}
+
+.bio{
+    display: block;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.bawah{
+    margin-top: 200px;
+}
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    background-color: #555;
+    opacity: .9;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 30px;
+    position: absolute;
+    z-index: 1;
+}
+
+.button{
+    margin-top: 20px;
+    width: 48x;
+    height: 27px;
+    display: inline-block;
+    background-color:antiquewhite;
+    cursor: pointer;
+    opacity: .8;
+    color: white;
+    border: 2px solid aquamarine;
+}
+
+.button2:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+</style>
