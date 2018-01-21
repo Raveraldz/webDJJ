@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../bootstrap/js/jquery-3.2.1.js"></script>
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link href="../bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css"/>
+    <title>Jula-Juli</title>
+  </head>
+  <body>
+      
+    <div class="header" align="center">
+        
+        <div class="top" align="center">
+          <h2>Jula-Juli</h2>
+        </div>
+        
+        <div class="top2" align="center">
+          <h4>Masakan Khas Jawa Timur</h4>  
+        </div>
+        <br/><hr color="grey"/>
+        
+        <ul class="list-group">
+            <li><a>Makanan</a>
+              <ul>
+                <li><a href="../html/nasi.html" target="_blank" class="list-group-item">Nasi</a></li>
+                <li><a href="../html/lauk.html" target="_blank" class="list-group-item">Lauk</a></li>
+                <li><a href="../html/ringan.html" target="_blank">Ringan</a></li>
+                </ul></li>
+            <li><a href="../index.html" target="_blank" class="list-group-item">Beranda</a></li>
+            <li><a>Minuman</a>
+              <ul>
+                <li><a href="../html/dingin.html" target="_blank" class="list-group-item">Dingin</a></li>
+                <li><a href="../html/hangat.html" target="_blank" class="list-group-item">Hangat</a></li>
+                <li><a href="../html/kemasan.html" target="_blank" class="list-group-item">Kemasan</a></li>
+              </ul>
+            </li>
+        </ul>
+      </div><br/><br/>
+      
+      <div align="center"><hr width="15%"/><h2>Minuman Dingin</h2><hr width="15%"/></div>
+      
+      <div class="container" align="center">
+            <div class="row images" align="center">
+                <span class="col-sm-4 image-responsive images1 popup" onclick="myFunction()"><h2>Es Jeruk</h2><img src="../gambar/dingin/esJeruk.jpg" width="480px" height="270px" border="1">
+                    <span class="popuptext" id="myPopup">
+                        <p>Pesan Secepatnya!</p>
+                    </span>
+                </span>
+                <span class="col-sm-4 image-responsive images1 popup" onclick="myFunction()"><h2>Es Teh</h2><img src="../gambar/dingin/esTeh.jpg" width="480px" height="270px" border="1"></span>
+            </div>
+      </div>
+      
+        <footer>
+        <div class="share" align="center">
+          <h2>Bagikan</h2>
+            <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank"><img src="../gambar/share/google+.png" width="30px" height="30px"></a>
+            <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank"><img src="../gambar/share/fb.png" width="30px" height="30px"></a>
+            <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank"><img src="../gambar/share/twitter.png" width="30px" height="30px"></a>
+        </div>
+        <br/>
+        <div class="quotes" align="center">~Setiap Makanan Punya Asal, dan Asal Dapat Berada Dimana Ia Dimasak~</div>
+        <div class="aboutUs" align="center"><a href="aboutUs.html" target="_blank"><h2>Tentang Kami</h2></a></div>
+      </footer>
+      
+      <script>
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+      </script>
+  </body>
+</html>
